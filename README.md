@@ -1,6 +1,6 @@
 # Transparent and Fair Profiling in Employment Services: Evidence from Switzerland
 
-This is the code for the paper "Transparent and Fair Profiling in Employment Services: Evidence from Switzerland" by Tim Räz. Note that the data processed by this code is not publicly available; see the paper for instructions of how to obtain the data.
+This is the code for the paper "Transparent and Fair Profiling in Employment Services: Evidence from Switzerland" by Tim Räz. It provides a proof-of-concept that interpretable and fair statistical profiling of long-term unemployment is feasible. It employs real administrative data from Switzerland. Two interpretable models (logistic regression, explainable boosting machines) as well as three black-box models (random forest, gradient boosting, extreme gradient boosting) are fit and evaluated. EBM is only slightly worse than GB and XGB, but globally interpretable. Fairness mitigation is also performed. Note that the data used in this project is not publicly available due to privacy restrictions; see the paper for instructions of how to obtain the data.
 
 To replicate findings, run the five Jupyter notebooks as needed:
 
