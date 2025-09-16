@@ -9,3 +9,5 @@ To replicate findings, run the five Jupyter notebooks as needed:
   3. Run main3_hyperparameter_tuning for hyperparameter tuning (optional).
   4. Run main4_interpretability to replicate interpretability results, including sparsity and smoothing feature functions.
   5. Run main5_fairness to replicate fairness results.
+
+Code was run and tested with Python 3.11.9. and Jupyter notebooks. See requirements.txt for used Python packages and versions.
